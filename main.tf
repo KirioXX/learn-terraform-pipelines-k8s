@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"    
+    organization = "Trunk"
     workspaces {
       name = "learn-terraform-pipelines-k8s"
     }
@@ -12,7 +12,7 @@ required_providers {
     }
 }
 
-required_version = "~> 0.14"
+required_version = "~> 1.0"
 }
 
 
